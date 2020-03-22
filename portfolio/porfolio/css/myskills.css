@@ -1,0 +1,141 @@
+*{
+    font-family: "Raleway", sans-serif;
+    list-style: none;
+    padding: 0;
+}
+/* body{
+    background: #333;
+} */
+.skills{
+    width: 500px;
+    display: block;
+    margin: 60px auto;
+    color: white;
+}
+.skills li{
+    margin: 20px 0;
+}
+.bar{
+    background: #353b48;
+    display: flex;
+    height: 4px;
+    border: 1px solid rgb(0,0,0,0.3);
+    border-radius: 5px;
+    box-shadow: 0 0 10px #2187e7b3;
+    justify-content: flex-start;
+}
+.bar span{
+    height: 4px;
+    background: #2187e7;
+
+}
+.html{
+    width:85%;
+    animation: html 2s;
+}
+.css{
+    width:85%;
+    animation: css 2s;
+}
+.javascript{
+    width:60%;
+    animation: javascript 2s;
+}
+.jquery{
+    width:50%;
+    animation: jquery 2s;
+}
+.boostrap{
+    width:55%;
+    animation: boostrap 2s;
+}
+.figma{
+    width: 60%;
+    animation: figma 2s;
+
+}
+.git{
+    width: 50%;
+    animation: git 2s;
+
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes jquery{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes boostrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+@keyframes figma{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes git{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+#home_btn{
+    display: flex;
+    justify-content: center;
+}
+.home_btn{
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid  #353b48;
+    margin: 20px;
+}
+#social_icons{
+display: flex;
+margin: 0;
+padding: 0;
+transform: translate(-50,-50);
+}
+#social_icons li{
+ background-color: #333;
+ margin: 0 15px;
+}
+#social_icons  li a{
+    width: 60px;
+    height: 60px;
+}

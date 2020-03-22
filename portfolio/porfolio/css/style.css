@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin-top: 30px;
+  text-align: right;
+  position: relative;
+  z-index: 2;
+  margin-right: 20px;
+}
+.nav li {
+  display: inline;
+  border: 2px solid #baffcd;
+  padding: 10px 10px;
+  color: #baffcd;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.banner_container {
+  background: url(/images/pictures/backgroundoverlay.png);
+  border: 1px solid blue;
+  position: relative;
+  bottom: 3rem;
+  text-align: center;
+  color: #baffcd;
+  z-index: 1;
+  width: 100%;
+}
+h1.banner_text {
+  margin: 10rem 0 3rem 0;
+}
+p.banner_text {
+  margin-bottom: 5rem;
+}
+.mouse {
+  fill: none;
+  stroke: #baffcd;
+  stroke-width: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+a:link {
+  text-decoration: none;
+}
+.mouse .rect {
+  filter: drop-shadow(3px 3px 2px #698a72);
+}
+.mouse .button {
+  position: relative;
+  left: 5.7rem;
+  bottom: 7rem;
+}
+
+.about_me {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+}
+.about_me_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    box-shadow: 10px 15px lightgrey;
+    border-radius: 5px;
+}
+.about_me_pic {
+  margin: 20px;
+}
+.about_me_info {
+  display: block;
+  border: 1px solid rebeccapurple;
+  margin: 20px;
+}
+/* .html h4{
+    position: relative;
+} */
+meter {
+  width: 10rem;
+  fill: #012827;
+}
+.html p {
+  position: relative;
+  top: 1rem;
+  right: 20rem;
+}
